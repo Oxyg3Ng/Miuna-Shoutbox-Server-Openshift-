@@ -2,6 +2,9 @@
   "name": "MiunaShoutboxServer",
   "version": "9.2.0",
   "description": "Server of Miuna shoutbox for Mybb",
+	"scripts": {
+	"start": "node index.js"
+	},
   "dependencies" : {
 	"socket.io": "~2.0.3",
 	"express": "~4.16.2",
